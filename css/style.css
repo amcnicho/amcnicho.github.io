@@ -1,0 +1,104 @@
+/*
+#intro {
+  
+}
+
+#linklist {
+  
+}
+
+#sysadmin {
+  
+}
+
+#aod {
+  
+}
+*/
+#science {
+    background-image: url("Dwarf_galaxy_IC_1613.jpg");
+}
+/*
+#contact {
+  
+}
+
+#misc {
+  
+}
+*/
+.image-behind {
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  text-align: right;
+  background-image: url("./images/265763main_carina07_hst_big_full.jpg");
+}
+
+/*
+body {
+  
+}
+
+footer {
+  
+}
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: AliceBlue;
+  color: black;
+  font-family: Arial;
+}
+
+p {  
+  color: AliceBlue;
+  color: darkslategray;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;  
+}
+
+a: {
+  color: rebeccapurple;
+}
+/*
+ol,
+li {
+  
+}
+
+<!-- Example code -->
+body {
+  background: #141E30;
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  background: linear-gradient(90deg, #35577D, #141E30);
+  margin: 50;
+  padding: 10px;
+}
+
+.caption {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+}
+.image {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+*/
