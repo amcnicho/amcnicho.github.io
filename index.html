@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<!-- Following standards defined by W3 and Mozilla-->
+<!--Following coding standards defined by W3 and Mozilla-->
 <!--  https://www.w3.org/TR/html5/-->
 <!--  https://developer.mozilla.org/en-US/docs/Web/HTML/Element-->
+<!--Following medical literature reference format standards defined by ANSI-->
+<!--  https://groups.niso.org/apps/group_public/download.php/12969/Z39_29_2005_R2010.pdf-->
 
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" width="device-width, initial-scale=1">
-    <!-- Design objectives: --> 
-    <!-- Landing page for NRAO browser start-->
-    <!-- Organized by everything I need to do my job daily -->
-    <!-- Subtle promotion of individual brand in header-->
-    <!-- Classic image/link design, primary UI is scroll/click browsing. -->
-    <!-- Admin-approved and NRAO-specific links in footer -->
     <title>Homepage | Andrew McNichols</title>
+
+    <!--Render text in utf-8-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" width="device-width, initial-scale=1">
+    <!--Scale page content with device width for mobile compatibility-->
+    <meta name="viewport" content="width=device-width, initial=scale=1">
+
+    <!--Design objectives: --> 
+    <!--Landing page for NRAO browser start-->
+    <!--Organized by everything I need to do my job daily-->
+    <!--Subtle promotion of individual brand in header-->
+    <!--Classic image/link design, primary UI is scroll/click browsing-->
+    <!--Image links shouldn't leave page-->
+    <!--Admin-approved and NRAO-specific links in footer-->
   </head>
 
   <header class="image-behind">
@@ -21,12 +29,13 @@
     <link href="./css/style.css" type="text/css" rel="stylesheet">
     <!--Page navigation-->
     <a href="#intro">Introduction</a>
+    <a href="#science">Science</a>
+    <a href="#contact">Contact</a>
     <a href="#linklist">Links</a>
     <a href="#sysadmin">Sysadmin Reference</a>
     <a href="#aod">AoD Reference</a>
-    <a href="#science">Science</a>
-    <a href="#contact">Contact</a>
     <a href="#misc">Miscellany</a>
+    <a href="#personal">Personal</a>
     <hr align="right" width="text">
   </header>
 
@@ -35,19 +44,68 @@
       <h2>About me</h2>
       <p>I am an American scholar currently working on the support staff for the Atacama Large Millimeter/sub-millimeter Array (<a href="http://www.almaobservatory.org/en/home/" target="_blank">ALMA</a>) project at the North American ALMA Science Center (<a href="https://science.nrao.edu/facilities/alma/intro-naasc" target="_blank">NAASC</a>) headquarters on the grounds of the University of Virginia in Charlottesville.</p>
       <p>For the last half decade I have been helping international collaborations solve complex problems in computing and astrophysics. Particular professional interests of mine include data collection and representation, the development and operation of advanced technology, and technical research investigations that expand the limits of human understanding. I matriculated from the <a href="http://www.astro.uhh.hawaii.edu/" target="_blank">University of Hawai'i - Hilo</a> in 2014 after three years' practical and theoretical study in the natural sciences.</p>
-      <a href="#intro"><img src="./images/NMT_byDMedlin.jpg" width="360"/></a>
+      <a href="http://www.drewmedlin.com/"><img src="./images/NMT_byDMedlin.jpg" width="360"/></a>
       <p>My primary long-term goal is to engage in and facilitate exploration that advances collective knowledge of the most awesome frontiers and eventually ensures permanent human presence in free space. In the meantime I have staken a claim to the title of "Most <em>Interested</em> Man on the World." I like to roam forests, solve puzzles, and test my limits. My favorite autonymous anagram is "Rancid Clown Mesh" and I have never lost an eating contest.</p>
-      <!--<p>On self-reported psychometric evaluations of "big five" model personality trait aspects (<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.513.2517&amp;rep=rep1&amp;type=pdf">DeYoung, C.G., Quilty, L.C. &amp; Peterson, J.B. 2007 Journal of Personality and Social Psychology, 93, 880-896</a>), I score about average in compassion, very low in politeness (low agreeableness in general); very low in industriousness, high in orderliness (moderately low conscientiousness in general); low in enthusiasm, moderately high in assertiveness (moderately low extraversion in general); high withdrawal, moderately high volatility (moderately high neuroticism in general); average intellect, and high openness (moderately high openness to experience in general).</p>-->
+      <!--<p>On self-reported psychometric evaluations of "big five" model personality trait aspects (<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.513.2517&amp;rep=rep1&amp;type=pdf">DeYoung, C.G., Quilty, L.C. &amp; Peterson, J.B. 2007 Journal of Personality and Social Psychology, 93, 880-896</a>), I score about average in compassion, very low in politeness (low agreeableness in general); very low in industriousness, high in orderliness (moderately low conscientiousness in general); low in enthusiasm, moderately high in assertiveness (moderately low extraversion in general); high withdrawal, moderately high volatility (moderately high neuroticism in general); average intellect, and high openness (moderately high openness to experience in general). Through no fault of my own, I am relatively more intelligent than average (see <a href="https://www.nature.com/articles/mp2014105">Plomin, R.; Deary, I.J. Genetics and intelligence differences: five special findings. Molecular Psychiatry volume 20, pages 98–108 (2015) doi:10.1038/mp.2014.105</a></li>)</p>-->
       <a href="https://melsrightbrain.wordpress.com/" target="_blank"><img src="./images/rancid_clown_mesh_mhoffman.png" width="360"/></a>
       <h2>About NRAO</h2>
-      <p>The National Radio Astronomy Observatory (<a href="https://public.nrao.edu/" target="_blank">NRAO</a>) is a facility of the National Science Foundation (<a href="https://www.nsf.gov/" target="_blank">NSF</a>), operated under cooperative agreement by Associated Universities, Inc. (<a href="https://www.aui.edu/" target="_blank">AUI</a>)</p>
-      <p>Founded in 1956, the NRAO provides state-of-the-art radio telescope facilities for use by the international scientific community. NRAO telescopes are open to all astronomers regardless of institutional or national affiliation. Observing time on NRAO telescopes is available on a competitive basis to qualified scientists after evaluation of research proposals on the basis of scientific merit, the capability of the instruments to do the work, and the availability of the telescope during the requested time. NRAO also provides both formal and informal programs in education and public outreach for teachers, students, the general public, and the media.</p>
+      <p>The National Radio Astronomy Observatory (<a href="https://public.nrao.edu/">NRAO</a>) is a facility of the National Science Foundation (<a href="https://www.nsf.gov/">NSF</a>), operated under cooperative agreement by Associated Universities, Inc. (<a href="https://www.aui.edu/">AUI</a>)</p>
+      <p>NRAO is one of the world's foremost institutions for research and development specializing in observational astrophysics and related technology. We design, build, and operate interferometers - the Very Large Array (<a href="https://science.nrao.edu/facilities/vla">VLA</a>) in the desert of New Mexico, ALMA in the desert of northern Chile, and the Very Long Baseline Array (<a href="https://science.nrao.edu/facilities/vlba">VLBA</a>) in locations across the United States. Many of the technologies and instruments in use at NRAO telescopes were designed and fabricated at the Central Development Laboratory (<a href="https://science.nrao.edu/facilities/cdl">CDL</a>), also located in Charlottesville. We are also closely affiliated with the Green Bank Observatory (<a href="https://greenbankobservatory.org/">GBO</a>), located over the mountains in West Virginia. The Next-Generation VLA (<a href="http://ngvla.nrao.edu/">ngVLA</a>) is the NRAO's next major interferometer project, and is scheduled for construction and eventual use some time after 2020.</p>
       <a href="https://science.nrao.edu/"><img src="./images/VLA_upward.jpg" width="360"/></a>
-      <p>NRAO is one of the world's foremost institutions for research and development specializing in observational astrophysics and related technology. We design, build, and operate interferometers - the Very Large Array (<a href="https://science.nrao.edu/facilities/vla" target="_blank">VLA</a>) in the desert of New Mexico, ALMA in the desert of northern Chile, and the Very Long Baseline Array (<a href="https://science.nrao.edu/facilities/vlba" target="_blank">VLBA</a>) in locations across the United States. Many of the technologies and instruments in use at NRAO telescopes were designed and fabricated at the Central Development Laboratory (<a href="https://science.nrao.edu/facilities/cdl" target="_blank">CDL</a>), also located in Charlottesville. We are also closely affiliated with the Green Bank Observatory (<a href="https://greenbankobservatory.org/" target="_blank">GBO</a>), located over the mountains in West Virginia. The Next-Generation VLA (<a href="http://ngvla.nrao.edu/" target="_blank">ngVLA</a>) is the NRAO's next major interferometer project, and is scheduled for construction and eventual use some time after 2020.</p>
-      <h4><a href="https://almascience.nrao.edu/proposing/call-for-proposals" target="_blank">Propose ALMA observations</a></h4>
-      <h4><a href="https://science.nrao.edu/observing/call-for-proposals/2019a" target="_blank">Propose VLA observations</a></h4>
-      <h4><a href="https://almascience.nrao.edu/observing/highest-priority-projects" target="_blank">View the highest-ranked proposals in the current ALMA observing Cycle</a></h4>
-      <h4><a href="https://public.nrao.edu/special-features/mission-control/" target="_blank">See what NRAO interferometers are currently observing</a></h4>
+      <p>Founded in 1956, the NRAO provides state-of-the-art radio telescope facilities for use by the international scientific community. NRAO telescopes are open to all astronomers regardless of institutional or national affiliation. Observing time on NRAO telescopes is available on a competitive basis to qualified scientists after evaluation of research proposals on the basis of scientific merit, the capability of the instruments to do the work, and the availability of the telescope during the requested time. NRAO also provides both formal and informal programs in education and public outreach for teachers, students, the general public, and the media.</p>
+      <h4><a href="https://almascience.nrao.edu/proposing/call-for-proposals">Propose ALMA observations</a></h4>
+      <h4><a href="https://science.nrao.edu/observing/call-for-proposals/2019a">Propose VLA observations</a></h4>
+      <h4><a href="https://almascience.nrao.edu/observing/highest-priority-projects">View the highest-ranked proposals in the current ALMA observing Cycle</a></h4>
+      <h4><a href="https://public.nrao.edu/special-features/mission-control/">See what NRAO interferometers are currently observing</a></h4>
+    </div>
+
+    <div id="science">
+      <h2>Science</h2>
+      <h3>Introduction</h3>
+      <p>My specialized scientific interests include multiwavelength astronomy, observational cosmology, and galaxy evolution (<a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=AST&db_key=PRE&qform=AST&arxiv_sel=astro-ph&arxiv_sel=cond-mat&arxiv_sel=cs&arxiv_sel=gr-qc&arxiv_sel=hep-ex&arxiv_sel=hep-lat&arxiv_sel=hep-ph&arxiv_sel=hep-th&arxiv_sel=math&arxiv_sel=math-ph&arxiv_sel=nlin&arxiv_sel=nucl-ex&arxiv_sel=nucl-th&arxiv_sel=physics&arxiv_sel=quant-ph&arxiv_sel=q-bio&sim_query=YES&ned_query=YES&adsobj_query=YES&aut_logic=OR&obj_logic=OR&author=mcnichols&object=&start_mon=&start_year=&end_mon=&end_year=&ttl_logic=OR&title=&txt_logic=OR&text=&nr_to_return=200&start_nr=1&jou_pick=NO&ref_stems=&data_and=ALL&group_and=ALL&start_entry_day=&start_entry_mon=&start_entry_year=&end_entry_day=&end_entry_mon=&end_entry_year=&min_score=&sort=SCORE&data_type=SHORT&aut_syn=YES&ttl_syn=YES&txt_syn=YES&aut_wt=1.0&obj_wt=1.0&ttl_wt=0.3&txt_wt=3.0&aut_wgt=YES&obj_wgt=YES&ttl_wgt=YES&txt_wgt=YES&ttl_sco=YES&txt_sco=YES&version=1">ADS: Refereed Papers</a>). I am an active researcher in the field of observational astrophysics, specializing in dwarf galaxy research with my collaborators on the Survey of HI in Extremely Low-mass Dwarfs (<a href="https://www.macalester.edu/~jcannon/shield/">SHIELD</a>) research team, led by Dr. John Cannon, Professor at Macalester College. I also participate in collaborations attempting to use radio telescopes to constrain the physical properties of other celestial objects, like our moon, other planets, and extragalactic masers.<br></p>
+      <a href="https://www.macalester.edu/~jcannon/shield/" target="_blank"><img src="./images/BTFR_gas.png" width="360"/></a>
+      <h3>Some questions that interest me now</h3>
+      <p>How can we most effeciently utilize existing computing resources (i.e., processors that <em>don't</em> use <a href="https://en.wikipedia.org/wiki/Quantum_computing#Basics">qubits</a>) and currently-deployed technology (like <a href="https://aws.amazon.com/">public clouds</a> and the NRAO high-performance computing <a href="https://info.nrao.edu/computing/guide/cluster-processing">clusters</a>) to solve scientific problems?</p>
+      <p>What is the most effective and generalizable way to study populations of cosmic objects? Statistical reductionist inference using "typical" results or randomly generated simulations as priors? Small sample observation of sources with extreme characteristics using matched detectors? Complete, instrument-limited, time-domain samples of the entire sky? Event-triggered, coordinated bolometric response obsevations to unique targets? Something else entirely, like improving theory or training neural networks?</p>
+      <p>Can we build accurate parametric models of galaxy structure, kinematics, and dynamics with sufficient predictive capability to unite the remarkably successful and precise predictions of cold-dark-matter cosomology with detailed constraints imposed by stellar and chemical observations?</p>
+      <p>Can observations of emission from the vibrational transitions of carbon ions illuminate new and improved constraints on star formation physics, especially in galaxies which are relatively devoid of heavy elements?</p>
+
+      <h3>Reference</h3>
+      <ul>
+        <li><a href="https://arxiv.org/list/astro-ph/new">arXiv (astro-ph)</a></li>
+        <li><a href="http://iopscience.iop.org/journal/0004-637X">ApJ</a></li>
+        <li><a href="http://iopscience.iop.org/journal/1538-3881">AJ</a></li>
+        <li><a href="http://iopscience.iop.org/journal/2041-8205">ApJ Letters</a></li>
+        <li><a href="https://academic.oup.com/mnras">MNRAS</a></li>
+        <li><a href="https://journals.aps.org/prd/">Phys. Rev. D</a></li>
+        <li><a href="http://journals.plos.org/plosone/">PLOS ONE</a></li>
+        <li><a href="http://science.sciencemag.org/">Science</a></li>
+        <li><a href="http://www.nature.com/nature/index.html">Nature</a></li>
+            <li><a href="https://science.nrao.edu/opportunities/courses/era/">ERA 534 (Condon & Ransom, 2nd web ed.)</a></li>
+            <li><a href="http://www.eso.org/~aplunket/jaoInterferometry.html">JAO practical interferometry series</a></li>
+        <li><a href="http://www.gb.nrao.edu/GBTtraining/">GBTraining Workshop</a></li>
+      </ul>
+      <h3>Tools</h3>
+      <ul>
+        <li><a href="https://almascience.nrao.edu/aq/">ALMA Science Archive (ASA) Query Page</a></li>
+        <li><a href="http://adsabs.harvard.edu/abstract_service.html">SAO/NASA ADS Search</a></li>
+	<li><a href="https://ned.ipac.caltech.edu/">NASA Extragalactic Database (NED)</a></li>
+        <li><a href="https://my.nrao.edu/nrao-2.0/secure/Home.htm?index=1">myNRAO Proposing</a></li>
+        <li><a href="https://www.overleaf.com/dash">Overleaf</a></li>
+	<li><a href="https://github.com/amcnicho">GitHub</a></li>
+	<li><a href="https://stackexchange.com/users/4769520/atm">StackExchange</a></li>
+	<li><a href="https://matplotlib.org/gallery/index.html">matplotlib docs</a></li>
+      </ul>
+    </div>
+
+    <div id="contact">
+      <h2>Contact Me</h2>
+      <p>OFC 101, Stone Hall<br>520 Edgemont Road<br>Charlottesville, VA</p>
+      <p><strong>email</strong>: amcnicho [at] nrao [dot] edu</p>
+      <p><strong>phone</strong>: +1 - 4 three 4 - two 4 four - 6 eight two 9</p>
+      <p><strong>telegram</strong>: <a href="https://t.me/atmcnichols">https://t.me/atmcnichols</a></p>
+      <p><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/andrewmcnichols">https://www.linkedin.com/in/andrewmcnichols</a><p>
+      <img src="./images/chajnantor.jpg" width="360"/>
     </div>
 
     <div id="linklist">
@@ -57,201 +115,292 @@
           <ul>
             <!-- web browsers respond to full and relative path the same way -->
             <!--<li><a href="./index.html">This Homepage</a></li>-->
-            <li><a href="http://www.cv.nrao.edu/~amcnicho/" target="_blank">This Homepage</a></li>
-            <li><a href="https://rcmail.cv.nrao.edu/" target="_blank">RoundCube e-mail</a></li>
-            <li><a href="https://mattermost.nrao.edu/sysadmins/channels/naasc-basement-trolls" target="_blank">Mattermost</a></li>
-            <li><a href="https://support.nrao.edu/" target="_blank">IT Helpdesk</a></li>
-            <li><a href="ftp://ftp.cv.nrao.edu/NRAO-staff/amcnicho/" target="_blank">My FTP area</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/1LaTjNuPg6mC6kfWBbneZsvmITVdoX_yYTwnT1aCwVZg/edit?usp=sharing" target="_blank">Lustre metrics Google sheet</a></li>
-            <li><a href="https://gitlab.nrao.edu/users/sign_in" target="_blank">NRAO GitLab</a></li>
-            <li><a href="http://swe.alma.cl/dashboard/db/call-for-proposals-2018?orgId=4&from=1521514800000&to=1524193199999&refresh=5s" target="_blank">ALMA CfP Dashboard</a></li>
+            <li><a href="http://www.cv.nrao.edu/~amcnicho/">This Homepage</a></li>
+            <li><a href="https://rcmail.cv.nrao.edu/?_task=mail&_mbox=INBOX">RoundCube e-mail</a></li>
+            <li><a href="https://mattermost.nrao.edu/sysadmins/channels/naasc-basement-trolls">Mattermost</a></li>
+            <li><a href="https://support.nrao.edu/am-login.php">IT Helpdesk</a></li>
+            <li><a href="ftp://ftp.cv.nrao.edu/NRAO-staff/amcnicho/">My FTP area</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1LaTjNuPg6mC6kfWBbneZsvmITVdoX_yYTwnT1aCwVZg/edit?usp=sharing">Lustre metrics Google sheet</a></li>
+            <li><a href="https://gitlab.nrao.edu/users/sign_in">NRAO GitLab</a></li>
+            <li><a href="https://zoom.us/j/204831881">Zoom</a></li>
+            <li><a href="https://docs.google.com/document/d/1JRsLAW7LJDqFn_4r5yDqPgX535d8iYF8vMp2eIcbwgs/edit">LFS service cycling procedures</a></li>
 	  </ul>
-        <li><h3>Administrativa</h3></li>
-          <ul>
-            <li><a href="https://inside.nrao.edu/" target="_blank">NRAO Internal Home</a></li>
-            <li><a href="http://library.nrao.edu/ebooks.shtml" target="_blank">Digital Books</a></li>
-            <li><a href="http://ess.nrao.edu/" target="_blank">JDE ESS ETK Portal</a></li>
-            <li><a href="https://sharepoint.nrao.edu/alma/arc/_layouts/15/start.aspx#/Travel/Forms/AllItems.aspx" target="_blank">Sharepoint</a></li>
-            <li><a href="https://mtgp.ad.nrao.edu/suite/Scheduler/DailyView.aspx" target="_blank">MeetingPlanner Web Scheduler</a></li>
-            <li><a href="https://bos.nrao.edu/" target="_blank">BOS</a></li>
-	  </ul>
-	<li><h3>CASA Links</h3></li>
-          <ul>
-            <li><a href="https://casa.nrao.edu/casa_cookbook.pdf" target="_blank">CASA Cookbook</a></li>
-            <li><a href="https://science.nrao.edu/opportunities/courses/era/" target="_blank">ERA 534</a></li>
-            <li><a href="https://casaguides.nrao.edu/index.php/Main_Page" target="_blank">CASA Guides</a></li>
-            <li><a href="http://casa.nrao.edu/docs/TaskRef/TaskRef.html" target="_blank">OldSkool CASA Task Reference</a></li>
-            <li><a href="http://casa.nrao.edu/docs/CasaRef/CasaRef.html" target="_blank">OldSkool CASA Toolkit Reference</a></li>
-            <li><a href="https://casaguides.nrao.edu/index.php?title=Writing_a_CASA_Task#The_Python_file" target="_blank">Writing a CASA Task</a></li>
-            <li><a href="https://safe.nrao.edu/wiki/bin/view/Main/CasaExtensions" target="_blank">aU Toolkit Index</a></li>
-	  </ul>
+
 	<li><h3>Metrics</h3></li>
           <ul>
-            <li><a href="https://neuron.cv.nrao.edu/?r=week&cs=&ce=&m=load_one&s=by+name&c=NAASC+HPC&h=&host_regex=&max_graphs=0&tab=m&vn=&sh=2&z=small&hc=4" target="_blank">Ganglia</a></li>
-            <li><a href="http://mano.cv.nrao.edu:57975" target="_blank">lustre file age report: /.lustre/naasc</a></li>
-	    <li><a href="https://sysmon.cv.nrao.edu/adagios" target="_blank">New Nagios Core on sysmon.cv.nrao.edu/nagios</a></li>
-            <li><a href="https://adcwiki.alma.cl/bin/view/IT/AlmaARCsNetworkMonitoring" target="_blank">AlmaARCsNetworkMonitoring</a></li>
-            <li><a href="http://mon.apotest.alma.cl/ems/oracle_instance.php?P_MENU=ALL&P_REGION=NA" target="_blank">Eisuke Monitoring Tool</a></li>
-            <li><a href="https://asa.alma.cl/integrated-reporting/" target="_blank">ALMA Integrated Reporting</a></li>
+            <li><a href="https://neuron.cv.nrao.edu/?r=week&cs=&ce=&m=load_one&s=by+name&c=NAASC+HPC&h=&host_regex=&max_graphs=0&tab=m&vn=&sh=2&z=small&hc=4">Ganglia</a></li>
+            <li><a href="http://mano.cv.nrao.edu:57975/">lustre file age report: /.lustre/naasc</a></li>
+	    <li><a href="https://sysmon.cv.nrao.edu/adagios">New Nagios Core on sysmon.cv.nrao.edu/nagios</a></li>
+            <li><a href="https://adcwiki.alma.cl/bin/view/IT/AlmaARCsNetworkMonitoring">AlmaARCsNetworkMonitoring</a></li>
+            <li><a href="http://mon.apotest.alma.cl/ems/oracle_instance.php?P_MENU=ALL&P_REGION=NA">Eisuke Monitoring Tool</a></li>
+            <li><a href="https://asa.alma.cl/integrated-reporting/">ALMA Integrated Reporting</a></li>
+            <li><a href="http://swe.alma.cl/dashboard/db/call-for-proposals-2018?orgId=4&from=1521514800000&to=1524193199999&refresh=5s">ALMA CfP Dashboard</a></li>
 	  </ul>
+
+        <li><h3>Administrativa</h3></li>
+          <ul>
+            <li><a href="https://inside.nrao.edu/">NRAO Internal Home</a></li>
+            <li><a href="http://library.nrao.edu/ebooks.shtml">Digital Books</a></li>
+            <li><a href="http://ess.nrao.edu/">JDE ESS ETK Portal</a></li>
+            <li><a href="https://sharepoint.nrao.edu/alma/arc/_layouts/15/start.aspx#/Travel/Forms/AllItems.aspx">Sharepoint</a></li>
+            <li><a href="https://mtgp.ad.nrao.edu/suite/Scheduler/DailyView.aspx">MeetingPlanner Web Scheduler</a></li>
+            <li><a href="https://bos.nrao.edu/">BOS</a></li>
+            <li><a href="https://sharepoint.nrao.edu/computing/Lists/Calendar/calendar.aspx">CIS Sharepoint Calendar</a></li>
+	  </ul>
+
+	<li><h3>NRAO Software Links</h3></li>
+          <ul>
+            <li><a href="https://casa.nrao.edu/casadocs/stable/global-task-list/task_ft/examples">Creating MODEL data in CASA</a></li>
+            <li><a href="https://casa.nrao.edu/casa_cookbook.pdf">CASA Cookbook</a></li>
+            <li><a href="https://casaguides.nrao.edu/index.php/Main_Page">CASA Guides</a></li>
+            <li><a href="http://casa.nrao.edu/docs/TaskRef/TaskRef.html">OldSkool CASA Task Reference</a></li>
+            <li><a href="http://casa.nrao.edu/docs/CasaRef/CasaRef.html">OldSkool CASA Toolkit Reference</a></li>
+            <li><a href="https://casaguides.nrao.edu/index.php?title=Writing_a_CASA_Task#The_Python_file">Writing a CASA Task</a></li>
+            <li><a href="https://safe.nrao.edu/wiki/bin/view/Main/CasaExtensions">aU Toolkit Index</a></li>
+            <li><a href="https://svn.cv.nrao.edu/test-summary/">CASA Builds</a></li>
+            <li><a href="https://svn.cv.nrao.edu/stable-tests/el6/">CASA Revs</a></li>
+            <li><a href="https://open-bitbucket.nrao.edu/projects/CASA/repos/casa/commits">CASA commits</a></li>
+	  </ul>
+
 	<li><h3>SST Links</h3></li>
           <ul>
-            <li><a href="https://staff.nrao.edu/wiki/bin/view/NAASC/NaascSoftwareSupportTeam" target="_blank">SST Wiki</a></li>
-            <li><a href="https://safe.nrao.edu/wiki/bin/view/ALMA/HowToRunThePipeline" target="_blank">HowToRunThePipeline</a></li>
-            <li><a href="https://almascience.nrao.edu/documents-and-tools/alma-science-pipeline-reference-manual-casa-4.7.0/view" target="_blank">Pipeline Manual</a></li>
-            <li><a href="https://svn.cv.nrao.edu/test-summary/" target="_blank">CASA Builds</a></li>
-            <li><a href="https://svn.cv.nrao.edu/stable-tests/el6/" target="_blank">CASA Revs</a></li>
-            <li><a href="https://open-bitbucket.nrao.edu/projects/CASA/repos/casa/commits" target="_blank">CASA commits</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/1eOiOoWOFkYJLx1rVt-cHCubh2TwE5CteXJh5sgow9E4/edit#gid=1145226081" target="_blank">OG Pipeline Spreadsheet</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/1YBqiRExHhmENxhoD8s_MgZZg-Zadgw2bqQsCx04l00E/edit#gid=0" target="_blank">Pipeline Spreadsheet II</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/1BugVbGKHzAUq1Q1HSg97aPaTA9MwS7C3tpbYSd9MHEQ/edit#gid=0" target="_blank">Cycle 6 Pipeline Sheet</a></li>
-            <li><a href="https://safe.nrao.edu/wiki/bin/view/Main/VisibilityOutliers" target="_blank">VisibilityOutliers</a></li>
-            <li><a href="https://staff.nrao.edu/wiki/bin/view/CIS/LustreReorganization" target="_blank">LustreReorganization2015</a></li>
-            <li><a href="https://wikis.alma.cl/bin/view/DataProcessing/UsingTheALMAQA2ImagingScriptGenerator" target="_blank">QA2ScriptGenerator</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/bin/view/NAASC/NaascSoftwareSupportTeam">SST Wiki</a></li>
+            <li><a href="https://safe.nrao.edu/wiki/bin/view/ALMA/HowToRunThePipeline">HowToRunThePipeline</a></li>
+            <li><a href="https://almascience.nrao.edu/documents-and-tools/alma-science-pipeline-reference-manual-casa-4.7.0/view">Pipeline Manual</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1eOiOoWOFkYJLx1rVt-cHCubh2TwE5CteXJh5sgow9E4/edit#gid=1145226081">Pipeline Spreadsheet I</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1YBqiRExHhmENxhoD8s_MgZZg-Zadgw2bqQsCx04l00E/edit#gid=0">Pipeline Spreadsheet II</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1BugVbGKHzAUq1Q1HSg97aPaTA9MwS7C3tpbYSd9MHEQ/edit#gid=0">Pipeline Spreadsheet III</a></li>
+            <li><a href="https://safe.nrao.edu/wiki/bin/view/Main/VisibilityOutliers">VisibilityOutliers</a></li>
 	  </ul>
 	<li><h3>Unsorted NAASC Links</h3></li>
           <ul>
-            <li><a href="https://almascience.nrao.edu/" target="_blank">ALMA Science Portal</a></li>
-            <li><a href="http://almascience.org/documents-and-tools/latest/alma-technical-handbook" target="_blank">Technical Handbook</a></li>
-            <li><a href="https://help.almascience.org/staff/index.php?/Base/Home/Index" target="_blank">ALMA Helpdesk</a></li>
-            <li><a href="https://asa.alma.cl/protrack/" target="_blank">ALMA Project Tracker</a></li>
-            <li><a href="http://ictjira.alma.cl/secure/Dashboard.jspa" target="_blank">SCIREQ</a></li>
-            <li><a href="https://staff.nrao.edu/wiki/bin/view/NAASC/NAASCDataAnalysts" target="_blank">NAASC DA Wiki</a></li>
-	    <li><a href="https://wikis.alma.cl/bin/view/DataProcessing/WebHome" target="_blank">ALMA Data Processing Home Wiki<a/></li>
+            <li><a href="https://staff.nrao.edu/wiki/bin/view/NAASC/WebHome">NRAO Staff Wiki</a></li>
+            <li><a href="https://almascience.nrao.edu/">ALMA Science Portal</a></li>
+            <li><a href="http://almascience.org/documents-and-tools/latest/alma-technical-handbook">Technical Handbook</a></li>
+            <li><a href="https://help.almascience.org/staff/index.php?/Base/Home/Index">ALMA Helpdesk (staff link)</a></li>
+            <li><a href="https://asa.alma.cl/protrack/">ALMA Project Tracker</a></li>
+            <li><a href="http://ictjira.alma.cl/secure/Dashboard.jspa">SCIREQ</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/bin/view/NAASC/NAASCDataAnalysts">NAASC DA Wiki</a></li>
+	    <li><a href="https://wikis.alma.cl/bin/view/DataProcessing/WebHome">ALMA Data Processing Home Wiki<a/></li>
+            <li><a href="https://wikis.alma.cl/bin/view/DataProcessing/UsingTheALMAQA2ImagingScriptGenerator">QA2ScriptGenerator</a></li>
 	  </ul>
 	<li><h3 id="sysadmin">Sysadmin Links</h3></li>
           <ul>
-            <li><a href="https://staff.nrao.edu/wiki/pub/CIS/SaConf17Agenda/wcolburnUserAccountsReport2016.pdf" target="_blank">Schlake's account reports</a></li>
-            <li><a href="http://blog.joncairns.com/2013/12/understanding-ssh-agent-and-ssh-add/" target="_blank">SSH explanation</a></li>
-            <li><a href="http://www.linuxfromscratch.org/lfs/view/stable/prologue/standards.html" target="_blank">Linux standards</a></li>
-            <li><a href="http://www.linfo.org/bin.html" target="_blank">Linux Info</a></li>
-            <li><a href="http://www.linfo.org/vi/open.html" target="_blank">VI introduction</a></li>
-            <li><a href="https://sin.cv.nrao.edu/syspass/index.php" target="_blank">sysPass</a></li>
-            <li><a href="https://safe.nrao.edu/wiki/bin/view/ALMA/NAASC/NAASCLustreUpgrade2017" target="_blank">NAASCLustreUpgrade</a></li>
-            <li><a href="https://sharepoint.nrao.edu/computing/Lists/Calendar/calendar.aspx" target="_blank">CIS Calendar</a></li>
-            <li><a href="https://staff.nrao.edu/wiki/bin/view/CIS/CISCVOpsCoordination" target="_blank">CIS Coord Meeting Wiki</a></li>
-            <li><a href="https://staff.nrao.edu/wiki/bin/view/CIS/Documentation/AdminDocs" target="_blank">AdminDocs CIS wiki</a></li>
-            <li><a href="https://sin.cv.nrao.edu:8080/" target="_blank">NIS web interface</a></li>
-            <li><a href="http://go.nrao.edu/acct" target="_blank">Account Checker Link</a></li>
-            <li><a href="https://sin.cv.nrao.edu/cgi-bin/account-check.cgi" target="_blank">AccountChecker (sin)</a></li>
-            <li><a href="https://lists.alma.cl/list_members.php" target="_blank">ALMA email list lookup</a></li>
-            <li><a href="https://jira.alma.cl/secure/Dashboard.jspa" target="_blank">JIRA - ALMA</a></li>
-            <li><a href="https://ictjira.alma.cl/secure/Dashboard.jspa" target="_blank">JIRA - ICT</a></li>
-            <li><a href="https://ictwiki.alma.cl/twiki/bin/view/" target="_blank">ICT TWiki</a></li>
-            <li><a href="https://ictwiki.alma.cl/twiki/bin/login/SoftOps/APO-DARED" target="_blank">DARED TWiki</a></li>
-            <li><a href="https://staff.nrao.edu/wiki/bin/view/Main/ALMADAREDNA" target="_blank">ALMADAREDNA</a></li>
-            <li><a href="https://adcwiki.alma.cl/twiki/bin/view/" target="_blank">ADC TWiki</a></li>
-            <li><a href="https://adcwiki.alma.cl/bin/view/APO/APOMeetingsDATAFLOWWSIII" target="_blank">ESO DBA Workshop Wiki</a></li>
-            <li><a href="https://staff.nrao.edu/wiki/bin/view/DMS/SISClusterOS" target="_blank">Cluster Scheduling</a></li>
-            <li><a href="https://nagios.cv.nrao.edu/nagios/" target="_blank">Nagios Core on nagios.cv.nrao.edu</a></li>
-            <li><a href="https://nagios.cv.nrao.edu/nagios/cgi-bin/config.cgi?type=services" target="_blank">Nagios Configuration</a></li>
-	    <li><a href="https://sysmon.cv.nrao.edu/adagios" target="_blank">New Nagios Configuration</a></li>
-	    <li><a href="https://sysmon.cv.nrao.edu/switchmap" target="_blank">Switchmap</a></li>
-            <li><a href="https://astrocloud.nrao.edu/login" target="_blank">AstroCloud</a></li>
-            <li><a href="http://leo.gb.nrao.edu/php/inventory/displaydb.php?f[hostname]=on&f[serial]=on&submit=Submit&special_filter=hostname%3D%22skidmark%22&filter=Filter" target="_blank">NRAO Computer Inventory</a></li>
-            <li><a href="https://joey.cv.nrao.edu/cgi-bin/BackupPC_Admin" target="_blank">BackupPC</a></li>
-            <li><a href="https://listmgr.nrao.edu/mailman/admin/" target="_blank">listmgr.nrao.edu Admin interface</a></li>
-            <li><a href="https://docs.oracle.com/cd/E11882_01/server.112/e18951/asmcon.htm#OSTMG036" target="_blank">Oracle ASM</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/1flQeS4ReMt1U6LgzvaVNPYuNLiT3VobnRB9XI2mpIm8/edit#gid=0" target="_blank">12.2c status sheet</a></li>
-            <li><a href="https://safe.nrao.edu/wiki/bin/view/ALMA/NAASC/NAASCOracle122Upgrade" target="_blank">NAASCOracle122Upgrade</a></li>
-            <li><a href="about:blank" target="_blank">OfflineCAS</a></li>
-            <li><a href="https://sin.cv.nrao.edu/cgi-bin/swinv.cgi" target="_blank">Service Software Version Report</a></li>
-            <li><a href="http://doc.lustre.org/lustre_manual.pdf" target="_blank">Lustre Manual</a></li>
-            <li><a href="https://github.com/cea-hpc/robinhood/wiki/rbh3_cfg_ref" target="_blank">RBH Config guide</a></li>
-            <li><a href="https://github.com/cea-hpc/robinhood/wiki/v3_lustre_tuto" target="_blank">RBH lustre tuto</a></li>
-            <li><a href="http://perfva.nrao.edu/toolkit/" target="_blank">perfSONAR</a></li>
-	    <li><a href="https://asa.alma.cl/xtss-rest-server/service/api/" target="_blank">XTSS web interface</a></li>
+	    <li><a href="https://wikis.alma.cl/bin/view/DSO/SoftwareAcceptances">ALMA Software release acceptance twiki</a></li>
+	    <li><a href="https://adcwiki.alma.cl/bin/view/APO/DeploymentDates">ALMA OFFLINE deployment schedule</a></li>
+	    <li><a href="https://sin.cv.nrao.edu/admin/index.php">Account/alias lookup tool</a></li>
+	    <li><a href="https://github.com/zfsonlinux/zfs/wiki/RHEL-and-CentOS">ZFS official docs</a></li>
+	    <li><a href="https://pthree.org/2012/12/17/zfs-administration-part-x-creating-filesystems/">ZFS tutorial</a></li>
+	    <li><a href="https://staff.nrao.edu/wiki/bin/view/CIS/CisOnboardingDocs">CIS employee onboarding checklist</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/pub/CIS/SaConf17Agenda/wcolburnUserAccountsReport2016.pdf">Schlake's account reports</a></li>
+            <li><a href="http://blog.joncairns.com/2013/12/understanding-ssh-agent-and-ssh-add/">SSH explanation</a></li>
+            <li><a href="http://www.linuxfromscratch.org/lfs/view/stable/prologue/standards.html">Linux standards</a></li>
+            <li><a href="http://www.linfo.org/bin.html">Linux Info</a></li>
+            <li><a href="http://www.linfo.org/vi/open.html">VI introduction</a></li>
+            <li><a href="https://sin.cv.nrao.edu/syspass/index.php">sysPass</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/bin/view/CIS/NaascLustre">NAASCLustre Parent Wiki</a></li>
+            <li><a href="https://safe.nrao.edu/wiki/bin/view/ALMA/NAASC/NAASCLustreUpgrade2017">NAASCLustreUpgrade2017</a></li>
+            <li><a href="https://safe.nrao.edu/wiki/bin/view/ALMA/NAASC/NAASCLustreUpgrade2018">NAASCLustreUpgrade2018</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/bin/view/CIS/LustreReorganization">LustreReorganization2015</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/bin/view/CIS/CISCVOpsCoordination">CIS Coord Meeting Wiki</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/bin/view/CIS/Documentation/AdminDocs">AdminDocs CIS wiki</a></li>
+            <li><a href="https://sin.cv.nrao.edu:8080/">NIS web interface</a></li>
+            <li><a href="http://go.nrao.edu/acct">Account Checker Link</a></li>
+            <li><a href="https://sin.cv.nrao.edu/cgi-bin/account-check.cgi">AccountChecker (sin)</a></li>
+            <li><a href="https://lists.alma.cl/list_members.php">ALMA email list lookup</a></li>
+            <li><a href="https://jira.alma.cl/secure/Dashboard.jspa">JIRA - ALMA</a></li>
+            <li><a href="https://ictjira.alma.cl/secure/Dashboard.jspa">JIRA - ICT</a></li>
+            <li><a href="https://ictwiki.alma.cl/twiki/bin/view/">ICT TWiki</a></li>
+            <li><a href="https://ictwiki.alma.cl/twiki/bin/login/SoftOps/APO-DARED">DARED TWiki</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/bin/view/Main/ALMADAREDNA">ALMADAREDNA</a></li>
+            <li><a href="https://safe.nrao.edu/wiki/bin/view/HPC/HPCSupport">HPC Support group wiki</a></li>
+            <li><a href="https://adcwiki.alma.cl/twiki/bin/view/">ADC TWiki</a></li>
+            <li><a href="https://adcwiki.alma.cl/bin/view/APO/APOMeetingsDATAFLOWWSIII">ESO DBA Workshop Wiki</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/bin/view/DMS/SISClusterOS">Cluster scheduling documentation</a></li>
+            <li><a href="https://nagios.cv.nrao.edu/adagios/status">Adagios Core on nagios.cv.nrao.edu</a></li>
+            <li><a href="https://nagios.cv.nrao.edu/nagios/cgi-bin/config.cgi?type=services">Nagios Configuration</a></li>
+	    <li><a href="https://sysmon.cv.nrao.edu/adagios">New Nagios Configuration</a></li>
+	    <li><a href="https://sysmon.cv.nrao.edu/switchmap">Switchmap</a></li>
+            <li><a href="https://astrocloud.nrao.edu/login">AstroCloud</a></li>
+            <li><a href="http://leo.gb.nrao.edu/php/inventory/displaydb.php?f[hostname]=on&f[serial]=on&submit=Submit&special_filter=hostname%3D%22skidmark%22&filter=Filter">NRAO Computer Inventory</a></li>
+            <li><a href="https://sin.cv.nrao.edu/cgi-bin/swinv.cgi">NRAO Software Inventory</a></li>
+            <li><a href="https://joey.cv.nrao.edu/cgi-bin/BackupPC_Admin">BackupPC</a></li>
+            <li><a href="https://listmgr.nrao.edu/mailman/admin/">listmgr.nrao.edu Admin interface</a></li>
+            <li><a href="https://docs.oracle.com/cd/E11882_01/server.112/e18951/asmcon.htm#OSTMG036">Oracle ASM</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1flQeS4ReMt1U6LgzvaVNPYuNLiT3VobnRB9XI2mpIm8/edit#gid=0">12.2c status sheet</a></li>
+            <li><a href="https://safe.nrao.edu/wiki/bin/view/ALMA/NAASC/NAASCOracle122Upgrade">NAASCOracle122Upgrade</a></li>
+            <li><a href="https://adcwiki.alma.cl/bin/view/APO/OfflineCAS">Standalone CAS server install docs</a></li>
+            <li><a href="https://sin.cv.nrao.edu/cgi-bin/swinv.cgi">Service Software Version Report</a></li>
+            <li><a href="http://doc.lustre.org/lustre_manual.pdf">Lustre Manual</a></li>
+            <li><a href="https://github.com/cea-hpc/robinhood/wiki/rbh3_cfg_ref">RBH Config guide</a></li>
+            <li><a href="https://github.com/cea-hpc/robinhood/wiki/v3_lustre_tuto">RBH lustre tuto</a></li>
+            <li><a href="http://perfva.nrao.edu/toolkit/">perfSONAR</a></li>
+	    <li><a href="https://asa.alma.cl/xtss-rest-server/service/api/">XTSS web interface</a></li>
 	  </ul>
 	<li><h3 id="aod">AoD Links</h3></li>
           <ul>
-	    <li><a href="https://asa.alma.cl/aoscheck-dashboard/" target="_blank">AOS-Check dashboard</a></li>
-	    <li><a href="http://www.alma.cl/~itoledo/html/" target="_blank">DSA Documentation</a></li>
-	    <li><a href="https://wikis.alma.cl/bin/view/DSO/WebHome" target="_blank">DSO Wiki</a></li>
-	    <li><a href="https://wikis.alma.cl/bin/view/DSO/Cycle5/Cycle5AoD" target="_blank">DSO Wiki - Cycle 5 AoD Instructions</a></li>
-	    <li><a href="https://wikis.alma.cl/bin/view/DSO/EOC/EOCObservationRequests" target="_blank">EOC Instructions</a></li>
-            <li><a href="https://almascience.eso.org/sc/" target="_blank">ALMA Calib Catalog</a></li>
-            <li><a href="https://asa.alma.cl/dashboard2-frontend/#/antennas" target="_blank">ALMA Dashboard 2.1.6</a></li>
-            <li><a href="http://www.alma.cl/~ahales/cal_survey/plots/grid_fluxes.html" target="_blank">Grid Survey</a></li>
-            <li><a href="https://wikis.alma.cl/bin/view/AIV/CurrentActivitiesAndOSFInformation" target="_blank">Old OSF wiki</a></li>
-            <li><a href="https://staff.nrao.edu/wiki/bin/view/NAASC/TravelToChile" target="_blank">TravelToChile wiki</a></li>
-            <li><a href="https://wikis.alma.cl/bin/view/DSO/September2012Training" target="_blank">AoD Training wiki</a></li>
-            <li><a href="https://staff.nrao.edu/wiki/bin/view/NAASC/TIDT" target="_blank">NAASC TIDT wiki for AoD info and presentation materials</a></li>
-            <li><a href="https://reserve.nrao.edu/cv-cis-loaner/day.php?year=2018&month=3&day=7&area=7" target="_blank">CV-IS Loaner Equipment</a></li>
-            <li><a href="https://staff.nrao.edu/wiki/pub/NAASC/November14/Cycle4AoD-v0.2.pdf" target="_blank">Cycle4AoD-v0.2.pdf</a></li>
-            <li><a href="https://wikis.alma.cl/twiki/pub/DSO/September2012Training/Solutions_to_QUIZ.pdf" target="_blank">Cycle2_AoD_quiz_solutions.pdf</a></li>
-            <li><a href="http://kibana.alma.cl" target="_blank">ALMA Kibana search</a></li>
-            <li><a href="http://weather.aiv.alma.cl/index.php" target="_blank">ALMA Weather Stations</a></li>
-	    <li><a href="http://api.alma.cl/science/jy-kelvins/high-freq/" target="_blank">HF Observatory Jy/K database (ICT-11059)</a></li>
-	    <li><a href="http://api.alma.cl/science/jy-kelvins/low-freq/" target="_blank">LF Observatory Jy/K database (ICT-11059)</a></li>
+	    <li><a href="http://www.alma.cl/~aosmonitor/AOSMonitor/STABLE/pages/pointing/">Antenna pointing database</a></li>
+	    <li><a href="http://apo05.osf.alma.cl/QA0+">QA0+ output</a></li>
+	    <li><a href="http://apo05.osf.alma.cl/TP/cycle5">Live TP plots</a></li>
+	    <li><a href="https://staff.nrao.edu/php/ntc/MxrPre/index.html?td=modMxr">Band 6 Mixer database</a></li>
+	    <li><a href="https://asa.alma.cl/aoscheck-dashboard/">AOS-Check dashboard</a></li>
+	    <li><a href="http://www.alma.cl/~itoledo/html/">DSA Documentation</a></li>
+	    <li><a href="https://wikis.alma.cl/bin/view/DSO/WebHome">DSO Wiki</a></li>
+	    <li><a href="https://wikis.alma.cl/bin/view/DSO/Cycle5/Cycle5AoD">DSO Wiki - Cycle 5 AoD Instructions</a></li>
+	    <li><a href="https://wikis.alma.cl/bin/view/DSO/EOC/EOCObservationRequests">EOC Instructions</a></li>
+            <li><a href="https://almascience.eso.org/sc/">ALMA Calib Catalog</a></li>
+            <li><a href="https://asa.alma.cl/dashboard2-frontend/#/antennas">ALMA Dashboard 2.1.6</a></li>
+            <li><a href="http://www.alma.cl/~ahales/cal_survey/plots/grid_fluxes.html">Grid Survey</a></li>
+            <li><a href="https://wikis.alma.cl/bin/view/AIV/CurrentActivitiesAndOSFInformation">Old OSF wiki</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/bin/view/NAASC/TravelToChile">TravelToChile wiki</a></li>
+            <li><a href="https://wikis.alma.cl/bin/view/DSO/September2012Training">AoD Training wiki</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/bin/view/NAASC/TIDT">NAASC TIDT wiki for AoD info and presentation materials</a></li>
+            <li><a href="https://reserve.nrao.edu/cv-cis-loaner/day.php?year=2018&month=3&day=7&area=7">CV-IS Loaner Equipment</a></li>
+            <li><a href="https://staff.nrao.edu/wiki/pub/NAASC/November14/Cycle4AoD-v0.2.pdf">Cycle4AoD-v0.2.pdf</a></li>
+            <li><a href="https://wikis.alma.cl/twiki/pub/DSO/September2012Training/Solutions_to_QUIZ.pdf">Cycle2_AoD_quiz_solutions.pdf</a></li>
+            <li><a href="http://kibana.alma.cl">ALMA Kibana search</a></li>
+            <li><a href="http://weather.aiv.alma.cl/index.php">ALMA Weather Stations</a></li>
+	    <li><a href="https://asa.alma.cl/science/jy-kelvins/low-freq/">ALMA LF Jy/K database (ICT-11059)</a></li><!--api.alma.cl for internal-->
+	    <li><a href="https://asa.alma.cl/science/jy-kelvins/high-freq/">ALMA HF Jy/K database (ICT-11059)</a></li><!--api.alma.cl for internal-->
 	  </ul>
       </ol>
     </div>
 
-    <div id="science">
-      <h2>Science</h2>
-      <p>My specialized scientific interests include multiwavelength astronomy, observational cosmology, and galaxy evolution (<a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=AST&db_key=PRE&qform=AST&arxiv_sel=astro-ph&arxiv_sel=cond-mat&arxiv_sel=cs&arxiv_sel=gr-qc&arxiv_sel=hep-ex&arxiv_sel=hep-lat&arxiv_sel=hep-ph&arxiv_sel=hep-th&arxiv_sel=math&arxiv_sel=math-ph&arxiv_sel=nlin&arxiv_sel=nucl-ex&arxiv_sel=nucl-th&arxiv_sel=physics&arxiv_sel=quant-ph&arxiv_sel=q-bio&sim_query=YES&ned_query=YES&adsobj_query=YES&aut_logic=OR&obj_logic=OR&author=mcnichols&object=&start_mon=&start_year=&end_mon=&end_year=&ttl_logic=OR&title=&txt_logic=OR&text=&nr_to_return=200&start_nr=1&jou_pick=NO&ref_stems=&data_and=ALL&group_and=ALL&start_entry_day=&start_entry_mon=&start_entry_year=&end_entry_day=&end_entry_mon=&end_entry_year=&min_score=&sort=SCORE&data_type=SHORT&aut_syn=YES&ttl_syn=YES&txt_syn=YES&aut_wt=1.0&obj_wt=1.0&ttl_wt=0.3&txt_wt=3.0&aut_wgt=YES&obj_wgt=YES&ttl_wgt=YES&txt_wgt=YES&ttl_sco=YES&txt_sco=YES&version=1" target="_blank">ADS: Refereed Papers</a>). I an active researcher in the field of observational astrophysics, specializing in dwarf galaxy research with my collaborators on the Survey of HI in Extremely Low-mass Dwarfs (<a href="https://www.macalester.edu/~jcannon/shield/" target="_blank">SHIELD</a>) research team, led by Dr. John Cannon at Macalester College. I also participate in collaborations attempting to use radio telescopes to constrain the physical properties of other celestial objects, like our moon, other planets, and extragalactic masers.<br></p>
-      <a href="https://www.macalester.edu/~jcannon/shield/" target="_blank"><img src="./images/BTFR_gas.png" width="360"/></a>
-
-      <h3>Reference</h3>
-      <ul>
-        <li><a href="https://arxiv.org/list/astro-ph/new" target="_blank">arXiv (astro-ph)</a></li>
-        <li><a href="http://iopscience.iop.org/journal/0004-637X" target="_blank">ApJ</a></li>
-        <li><a href="http://iopscience.iop.org/journal/1538-3881" target="_blank">AJ</a></li>
-        <li><a href="http://iopscience.iop.org/journal/2041-8205" target="_blank">ApJ Letters</a></li>
-        <li><a href="https://academic.oup.com/mnras" target="_blank">MNRAS</a></li>
-        <li><a href="https://journals.aps.org/prd/" target="_blank">Phys. Rev. D</a></li>
-        <li><a href="http://journals.plos.org/plosone/" target="_blank">PLOS ONE</a></li>
-        <li><a href="http://science.sciencemag.org/" target="_blank">Science</a></li>
-        <li><a href="http://www.nature.com/nature/index.html" target="_blank">Nature</a></li>
-        <li><a href="http://www.gb.nrao.edu/GBTtraining/" target="_blank">GBTraining Workshop</a></li>
-      </ul>
-      <h3>Tools</h3>
-      <ul>
-        <li><a href="https://almascience.nrao.edu/aq/" target="_blank">ALMA Science Archive (ASA) Query Page</a></li>
-        <li><a href="http://adsabs.harvard.edu/abstract_service.html" target="_blank">SAO/NASA ADS Search</a></li>
-	<li><a href="https://ned.ipac.caltech.edu/" target="_blank">NASA Extragalactic Database (NED)</a></li>
-        <li><a href="https://my.nrao.edu/nrao-2.0/secure/Home.htm?index=1" target="_blank">myNRAO Proposing</a></li>
-        <li><a href="https://www.overleaf.com/dash" target="_blank">Overleaf</a></li>
-	<li><a href="https://github.com/amcnicho" target="_blank">GitHub</a></li>
-	<li><a href="https://stackexchange.com/users/4769520/atm" target="_blank">StackExchange</a></li>
-	<li><a href="https://matplotlib.org/gallery/index.html" target="_blank">matplotlib docs</a></li>
-      </ul>
-    </div>
-
-    <div id="contact">
-      <h2>Contact</h2>
-      <p>520 Edgemont Road<br>Stone Hall, OFC 101<br>Charlottesville, VA</p>
-      <p><strong>email</strong>: amcnicho [at] nrao [dot] edu</p>
-      <p><strong>phone</strong>: +1 - 4 three 4 - two 4 four - 6 eight two 9</p>
-      <p><a href="https://www.linkedin.com/in/andrewmcnichols" target="_blank"><strong>LinkedIn</strong></a><p>
-      <img src="./images/chajnantor.jpg" width="360"/>
-    </div>
-
     <div id="misc">
       <h2>Miscellany</h2>
+      <h3>References</h3>
+      <ul>
+	<li><a href="https://www.latitudegroup.com/blog/collective-nouns/">Collective noun reference</a></li>
+	<li><a href="http://www-uxsup.csx.cam.ac.uk/misc/csh.html">csh public service announcement</a></li>
+	<li><a href="http://mywiki.wooledge.org/BashPitfalls">Common bash scripting mistakes</a></li>
+	<li><a href="http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/Errors/unix_system_errors.html">Linux System Error Codes</a></li>
+	<li><a href="https://git-scm.com/docs">git command reference</a></li>
+	<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML element reference</a></li>
+	<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS properties index</a></li>
+	<li><a href="https://www.cssfontstack.com/">CSS Font reference</a></li>
+	<li><a href="http://www.rgrjr.com/emacs/emacs_cheat.html">emacs command cheat sheet</a></li>
+	<li><a href="https://db-engines.com/en/ranking">DB Engine Popularity</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Unit_circle#/media/File:Circle-trig6.svg">Unit Circle</a></li>
+	<li><a href="https://www.iau.org/public/themes/constellations/">List of the constellations</a></li>
+	<li><a href="https://www.webpagefx.com/tools/emoji-cheat-sheet/">Emoji index</a></li>
+	<li><a href="https://www.timeanddate.com/date/durationresult.html?m1=6&d1=20&y1=1992">Date duraton calculator</a></li>
+      </ul>
+
+      <h3>Web Resources</h3>
+      <ul>
+	<li><a href="https://www.freeimages.com/">free images</a></li>
+	<li><a href="https://www.stockio.com/">stockio</a></li>
+	<li><a href="https://www.flaticon.com/">flaticon</a></li>
+	<li><a href="https://www.iconfinder.com/">iconfinder</a></li>
+	<li><a href="https://www.thenounproject.com/">the noun project</a></li>
+	<li><a href="https://loading.io/">loading.io</a></li>
+	<li><a href="https://wearekiss.com/spritepad">spritepad</a></li>
+	<li><a href="https://www.toptal.com/designers/subtlepatterns/">subtle patterns</a></li>
+	<li><a href="https://placeholder.com">placeholder</a></li>
+	<li><a href="https://github.com/heyalexej/awesome-images">free images (github aggregation)</a></li>
+	<li><a href="https://www.dafont.com/">dafont</a></li>
+	<li><a href="https://www.fontawesome.com/">fontawesome</a></li>
+	<li><a href="https://fonts.google.com/">Google fonts</a></li>
+      </ul>
+
       <h3>Check it out</h3>
       <ul>
-	<li><a href="https://apod.nasa.gov/apod/astropix.html" target="_blank">Astronomy Picture of the Day</a></li>
-	<li><a href="http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/Errors/unix_system_errors.html" target="_blank">Linux System Error Codes</a></li>
-	<li><a href="https://git-scm.com/docs" target="_blank">git command reference</a></li>
-	<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML element reference</a></li>
-	<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">CSS properties index</a></li>
-	<li><a href="https://www.cssfontstack.com/" target="_blank">CSS Font reference</a></li>
-	<li><a href="http://www.rgrjr.com/emacs/emacs_cheat.html" target="_blank">emacs command cheat sheet</a></li>
-	<li><a href="https://db-engines.com/en/ranking" target="_blank">DB Engine Popularity</a></li>
-	<li><a href="https://en.wikipedia.org/wiki/Unit_circle#/media/File:Circle-trig6.svg" target="_blank">Unit Circle</a></li>
-	<li><a href="https://www.iau.org/public/themes/constellations/" target="_blank">List of the constellations</a></li>
-	<li><a href="https://www.webpagefx.com/tools/emoji-cheat-sheet/" target="_blank">Emoji index</a></li>
-	<li><a href="http://www.donothingfor2minutes.com/" target="_blank">Test your resolve</a></li>
-	<li><a href="http://www.koalastothemax.com/" target="_blank">Koalas to the max</a></li>
-	<li><a href="http://stuffin.space/" target="_blank">Stuff In Space</a></li>
+	<li><a href="https://apod.nasa.gov/apod/astropix.html">Astronomy Picture of the Day</a></li>
+	<li><a href="https://graphical.weather.gov/sectors/midatlantic.php">Mid-atlantic weather forecasts</a></li>
+	<li><a href="https://www.nasa.gov/content/space-station-view-of-us-national-parks">National Parks from ISS</a></li>
+	<li><a href="http://www.donothingfor2minutes.com/">Test your resolve</a></li>
+	<li><a href="http://www.koalastothemax.com/">Koalas to the max</a></li>
+	<li><a href="http://stuffin.space/">Stuff In Space</a></li>
+	<li><a href="http://extrafabulouscomics.com/comic/194/">Extra Fabulous Comics</a></li>
+	<li><a href="https://www.smbc-comics.com/comic/2009-10-13">Saturday Morning Breakfast Cereal</a></li>
+	<li><a href="http://garfieldminusgarfield.net/post/154693536857/skills">Garfield Minus Garfield</a></li>
+	<li><a href="https://xkcd.com/681/">XKCD</a></li>
       </ul>
+
       <h3 id="personal">Personal</h3>
       <ul>
         <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Gmail</a></li>
         <li><a href="https://calendar.google.com/calendar/r" target="_blank">Calendar</a></li>
-	<li><a href="https://selfauthoring.com/login" target="_blank">Self authoring</a></li>
+	<li><a href="https://selfauthoring.com/login.html" target="_blank">Self authoring</a></li>
 	<li><a href="https://www.understandmyself.com/Users/Account/LogOn" target="_blank">Personality self-evaluation</a></li>
+      </ul>
+
+      <h4>Medical Literature</h4>
+      <ul>
+      <!--Need to organize by topic:-->
+      <!--Fasting, Eating, Exercise, Endocrinology-->
+      <h5>Fed-state nutrition</h5>
+      <ul>
+        <li>Aragon AA, Schoenfeld BJ. Nutrient timing revisited: is there a post-exercise anabolic window? Journal of the International Society of Sports Nutrition 2013;10:5. <a href="https://jissn.biomedcentral.com/track/pdf/10.1186/1550-2783-10-5">doi:10.1186/1550-2783-10-5</a></li>
+        <li>Beaven CM, Hopkins WG, Hansen KT, Wood MR, Cronin JB, Lowe TE. Dose effect of caffeine on testosterone and cortisol responses to resistance exercise. Int J Sport Nutr Exerc Metab. 2008 Apr;18(2):131-41. <a href="https://pdfs.semanticscholar.org/7db2/b4007e7451ededb9a50f551ca466738c427d.pdf">PMID:18458357</a></li>
+	<li>DeFronzo RA, Cooke CR, Andres R, Faloona GR, Davis PJ. The effect of insulin on renal handling of sodium, potassium, calcium, and phosphate in man. Journal of Clinical Investigation. 1975;55(4):845-855.<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC301822/pdf/jcinvest00168-0222.pdf">PMID:1120786</a></li>
+	<li>Gumz ML, Rabinowitz L, Wingo CS. An Integrated View of Potassium Homeostasis. The New England journal of medicine. 2015;373(1):60-72. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5675534/pdf/nihms896828.pdf">doi:10.1056/NEJMra1313341</a></li>
+	<li>Jabekk PT, Moe IA, Meen HD, Tomten SE, Høstmark AT. Resistance training in overweight women on a ketogenic diet conserved lean body mass while reducing body fat. Nutrition & Metabolism. 2010;7:17. <a href="https://nutritionandmetabolism.biomedcentral.com/track/pdf/10.1186/1743-7075-7-17">doi:10.1186/1743-7075-7-17</a></li>
+        <li>Johnston CS, Gaas CA. Vinegar: Medicinal Uses and Antiglycemic Effect. Medscape General Medicine. 2006;8(2):61. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1785201/?report=printable">PMID:16926800</a></li>
+	<li>Kossoff EH, Rho JM. Ketogenic diets: Evidence for short- and long-term efficacy. Neurotherapeutics. 2009;6(2):406-414. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4071763/pdf/13311_2011_Article_60200406.pdf">doi:10.1016/j.nurt.2009.01.005.</a></li>
+	<li>Luther JM, Byrne LM, Yu C, Wang TJ, Brown NJ. Dietary Sodium Restriction Decreases Insulin Secretion Without Affecting Insulin Sensitivity in Humans. The Journal of Clinical Endocrinology and Metabolism. 2014;99(10):E1895-E1902. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4184066/?report=printable">doi:10.1210/jc.2014-2122</a></li>
+	<li>McDonough AA, Youn JH. Potassium Homeostasis: The Knowns, the Unknowns, and the Health Benefits. Physiology. 2017;32(2):100-111. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5337831/?report=printable">doi:10.1152/physiol.00022.2016</a></li>
+        <li>Mori H. Effect of timing of protein and carbohydrate intake after resistance exercise on nitrogen balance in trained and untrained young men. Journal of Physiological Anthropology. 2014;33(1):24. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4155766/pdf/1880-6805-33-24.pdf">doi:10.1186/1880-6805-33-24</a></li>
+        <li>Paoli A, Grimaldi K, D’Agostino D, Cenci L, Moro T, Bianco A, Palma A. Ketogenic diet does not affect strength performance in elite artistic gymnasts. Journal of the International Society of Sports Nutrition 2012;9:34. <a href="https://jissn.biomedcentral.com/articles/10.1186/1550-2783-9-34">doi:10.1186/1550-2783-9-34</a></li>
+        <li>Pietrocola F, Malik SA, Mariño G, et al. Coffee induces autophagy in vivo. Cell Cycle. 2014;13(12):1987-1994. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4111762/pdf/cc-13-1987.pdf">doi:10.4161/cc.28929</a></li>
+	<li>Sharma S, McFann K, Chonchol M, Kendrick J. Dietary Sodium and Potassium Intake is Not Associated with Elevated Blood Pressure in US Adults with No Prior History of Hypertension. Journal of clinical hypertension (Greenwich, Conn). 2014;16(6):418-423. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4061250/pdf/nihms571090.pdf">doi:10.1111/jch.12312</a></li>
+	<li>Stone MS, Martyn L, Weaver CM. Potassium Intake, Bioavailability, Hypertension, and Glucose Control. Nutrients. 2016;8(7):444. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4963920/pdf/nutrients-08-00444.pdf">doi:10.3390/nu8070444</a></li>
+        <li>Swithers SE. Artificial sweeteners produce the counterintuitive effect of inducing metabolic derangements. Trends in endocrinology and metabolism: TEM. 2013;24(9):431-441. <a href="https://link.springer.com/article/10.1007%2Fs40279-015-0320-0">doi:10.1016/j.tem.2013.05.005</a></li>
+        <li>Vining EPG, Freeman JM, Ballaban-Gil K, et al. A Multicenter Study of the Efficacy of the Ketogenic Diet. Arch Neurol. 1998;55(11):1433–1437. <a href="http://jamanetwork.com/journals/jamaneurology/fullarticle/774424">doi:10.1001/archneur.55.11.1433</a></li>
+	<li>Wu B-H, Lin J-C. Caffeine Attenuates Acute Growth Hormone Response to a Single Bout of Resistance Exercise. Journal of Sports Science & Medicine. 2010;9(2):262-269. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3761732/pdf/jssm-09-262.pdf">PMID:24149694</a></li>
+      </ul>
+
+      <h5>Training</h5>
+      <ul>
+        <li>Behm DG, St-Pierre DM. Effects of fatigue duration and muscle type on voluntary and evoked contractile properties. J Appl Physiol (1985). 1997 May;82(5):1654-61.<a href="https://www.physiology.org/doi/pdf/10.1152/jappl.1997.82.5.1654">doi:10.1152/jappl.1997.82.5.1654</a></li>
+        <li>Chakravarty EF, Hubert HB, Lingala VB, Zatarain E, Fries JF. Long distance running and knee osteoarthritis. A prospective study. Am J Prev Med. 2008 Aug;35(2):133-8. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2556152/pdf/nihms59238.pdf">doi:10.1016/j.amepre.2008.03.032.</a></li>
+        <li>Dankel SJ, Mattocks KT, Jessee MB, Buckner SL, Mouser JG, Counts BR, Laurentino GC, Loenneke JP. Frequency: The Overlooked Resistance Training Variable for Inducing Muscle Hypertrophy?. Sports Med. 2017 May;47(5):799-805. <a href="https://link.springer.com/article/10.1007%2Fs40279-016-0640-8">doi:10.1007/s40279-016-0640-8</a> (paywall)</li>
+        <li>Hartman MJ, Clark B, Bembens DA, Kilgore JL, Bemben MG. Comparisons between twice-daily and once-daily training sessions in male weight lifters. Int J Sports Physiol Perform. 2007 Jun;2(2):159-69. <a href="https://journals.humankinetics.com/doi/pdf/10.1123/ijspp.2.2.159">doi:10.1123/ijspp.2.2.159</a> (paywall)</li>
+        <li>Hespanhol Junior LC, Pillay JD, van Mechelen W, Verhagen E. Meta-Analyses of the Effects of Habitual Running on Indices of Health in Physically Inactive Adults. Sports Medicine (Auckland, N.z). 2015;45(10):1455-1468. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4579257/pdf/40279_2015_Article_359.pdf">doi:10.1007/s40279-015-0359-y.</a></li>
+        <li>Konopka AR, Harber MP. Skeletal Muscle Hypertrophy after Aerobic Exercise Training. Exercise and sport sciences reviews. 2014;42(2):53-61. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4523889/pdf/nihms-555460.pdf">doi:10.1249/JES.0000000000000007</a></li>
+        <li>Konradsen L, Berg Hansen E-M, Søndergaard L. Long distance running and osteoarthrosis. The American Journal of Sports Medicine. 1990;18(4):379-381. <a href="http://journals.sagepub.com/doi/pdf/10.1177/036354659001800408">doi:10.1177/036354659001800408</a></li>
+        <li>Panush RS, Schmidt C, Caldwell JR, et al. Is Running Associated With Degenerative Joint Disease?. JAMA. 1986;255(9):1152–1154. <a href="https://jamanetwork.com/journals/jama/article-abstract/403120?redirect=true">doi:10.1001/jama.1986.03370090074023</a> (paywall)</li>
+      </ul>
+
+      <h5>Fasting</h5>
+      <ul>
+        <li>Felig P, Owen OE, Wahren J, Cahill GF. Amino acid metabolism during prolonged starvation. Journal of Clinical Investigation. 1969;48(3):584-594. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC535724/pdf/jcinvest00209-0184.pdf">doi:10.1172/JCI106017</a></li>
+        <li>Finn PF, Dice JF. Proteolytic and lipolytic responses to starvation. Nutrition. 2006 Jul-Aug;22(7-8):830-844. <a href="https://www.ncbi.nlm.nih.gov/pubmed/16815497">doi:10.1016/j.nut.2006.04.008</a> (paywall)</li>
+        <li>Drenick EJ, Swendseid ME, Blahd WH, Tuttle SG. Prolonged Starvation as Treatment for Severe Obesity. JAMA. 1964;187(2):100–105. <a href="https://jamanetwork.com/journals/jama/article-abstract/1161598?redirect=true">doi:10.1001/jama.1964.03060150024006</a> (paywall)</li>
+        <li>Hartman ML, Veldhuis JD, Johnson ML, Lee MM, Alberti KG, Samojlik E, Thorner MO. Augmented growth hormone (GH) secretory burst frequency and amplitude mediate enhanced GH secretion during a two-day fast in normal men. The Journal of Clinical Endocrinology & Metabolism, 1992;74(4):757-765. <a href="https://academic.oup.com/jcem/article-abstract/74/4/757/3004645?redirectedFrom=fulltext">https://doi.org/10.1210/jcem.74.4.1548337</a> (paywall)</li>
+        <li>Ho KY, Veldhuis JD, Johnson ML, et al. Fasting enhances growth hormone secretion and amplifies the complex rhythms of growth hormone secretion in man. Journal of Clinical Investigation. 1988;81(4):968-975. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC329619/pdf/jcinvest00482-0014.pdf">doi:10.1172/JCI113450</a></li>
+        <li>Kerndt PR, Naughton JL, Driscoll CE, Loxterkamp DA. Fasting: The History, Pathophysiology and Complications. Western Journal of Medicine. 1982;137(5):379-399. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1274154/pdf/westjmed00207-0055.pdf">PMID:6758355</a></li>
+        <li>Longo VD, Mattson MP. Fasting: Molecular Mechanisms and Clinical Applications. Cell metabolism. 2014;19(2):181-192. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3946160/pdf/nihms551820.pdf">doi:10.1016/j.cmet.2013.12.008</a></li>
+        <li>Mehanna HM, Moledina J, Travis J. Refeeding syndrome: what it is, and how to prevent and treat it. BMJ : British Medical Journal. 2008;336(7659):1495-1498. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2440847/pdf/bmj-336-7659-cr-01495.pdf">doi:10.1136/bmj.a301</a></li>
+        <li>Moro T, Tinsley G, Bianco A, et al. Effects of eight weeks of time-restricted feeding (16/8) on basal metabolism, maximal strength, body composition, inflammation, and cardiovascular risk factors in resistance-trained males. Journal of Translational Medicine. 2016;14:290. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5064803/pdf/12967_2016_Article_1044.pdf">doi:10.1186/s12967-016-1044-0</a></li>
+        <li>Mihaylova MM, Cheng C-W, Sabatini DM, Yilmaz ÖH, et al. Fasting activates fatty acid oxidation to enhance intestinal stem cell function during homeostasis and aging. Cell Stem Cell. 2018 May;22(5):769-778. <a href="https://www.cell.com/cell-stem-cell/pdf/S1934-5909(18)30163-2.pdf">doi:10.1016/j.stem.2018.04.001</a> (paywall)</li>
+        <li>Nørrelund H, Nair KS, Jørgensen JO, Christiansen JS, Møller N. The protein-retaining effects of growth hormone during fasting involve inhibition of muscle-protein breakdown. Diabetes. 2001 Jan;50(1):96-104. <a href="https://www.ncbi.nlm.nih.gov/pubmed/11147801">PMID:11147801</a></li>
+        <li>Pifferi F, Terrien J, et al. Caloric restriction increases lifespan but affects brain integrity in grey mouse lemur primates. Nature Communications Biology. 2018;1(30) <a href="https://www.nature.com/articles/s42003-018-0024-8.pdf">doi:10.1038/s42003-018-0024-8</a></li>
+        <li>Stewart WK, Fleming LW. Features of a successful therapeutic fast of 382 days’ duration. Postgraduate Medical Journal. 1973;49(569):203-209. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2495396/pdf/postmedj00315-0056.pdf">PMID:4803438</a></li>
+      </ul>
+      
+      <h5>Endocrinology</h5>
+      <ul>
+        <li>Atherton PJ, Smith K. Muscle protein synthesis in response to nutrition and exercise. The Journal of Physiology. 2012;590:1049-1057. <a href="https://physoc.onlinelibrary.wiley.com/doi/pdf/10.1113/jphysiol.2011.225003">doi:10.1113/jphysiol.2011.225003</a></li>
+        <li>Damas F, Phillips S, Vechin FC, et al. A review of resistance training-induced changes in skeletal muscle protein synthesis and their contribution to hypertrophy. Sports Med. 2015 Jun;45(6):801-7. <a href="https://www.ncbi.nlm.nih.gov/pubmed/25739559">doi:10.1007/s40279-015-0320-0</a> (paywall)</li>
+        <li>Greene J, Louis J, Korostynska O, Mason A. State-of-the-Art Methods for Skeletal Muscle Glycogen Analysis in Athletes—The Need for Novel Non-Invasive Techniques. Newman JD, ed. Biosensors. 2017;7(1):11. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5371784/pdf/biosensors-07-00011.pdf">doi:10.3390/bios7010011</a></li>
+        <li>Kingsbury KJ, Morgan DM, Heyes TD. The analysis of the fatty acids of normal human depot fat by gas–liquid chromatography. Biochemical Journal. 1964;90(1):140-147. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1202533/pdf/biochemj00783-0148.pdf">PMID:5832283</a></li>
+        <li>Kingsbury KJ, Paul S, Crossley A, Morgan DM. The fatty acid composition of human depot fat. Biochemical Journal. 1961;78(3):541-550. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1205373/pdf/biochemj01003-0098.pdf">PMID:13756126</a></li>
+        <li>Sanderson JT. The steroid hormone biosynthesis pathway as a target for endocrine-disrupting chemicals. Toxicol Sci. 2006 Nov;94(1):3-21. <a href="https://academic.oup.com/toxsci/article/94/1/3/1711609">doi:10.1093/toxsci/kfl051</a></li>
+        <li>Stanczyk, F, Glob. Production, Clearance, and Measurement of Steroid Hormones. Libr. Women's Med., (ISSN: 1756-2228) 2009. <a href="https://www.glowm.com/section_view/heading/Production,+Clearance,+and+Measurement+of+Steroid+Hormones/item/277">doi:10.3843/GLOWM.10278</a></li>
+      </ul>
+      
+      <h4>Medical articles</h4>
+      <ul>
+        <li><a href="https://bayesianbodybuilding.com/cns-fatigue/"> Menno Henselmans - Three CNS Fatigue Myths</a></li>
+        <li><a href="https://bayesianbodybuilding.com/energy-balance-myths/">Menno Henselmans - Energy balance myths: Why you can gain fat in a deficit</a></li>
+        <li><a href="https://bayesianbodybuilding.com/gain-muscle-and-lose-fat-at-the-same-time/">Menno Henselmans - Can you gain muscle and lose fat at the same time?</a></li>
+        <li><a href="http://healthcorrelator.blogspot.com/2012/03/gaining-muscle-and-losing-fat-at-same.html?m=1">Ned Kock - Gaining muscle and losing fat at the same time: Various issues and two key requirements</a></li>
+        <li><a href="https://www.dietdoctor.com/fasting-muscle-mass">Jason Fung - Fasting and Muscle Mass</a></li>
+
+      <p>After reading and watching videos on the web, I became aware of the ketogenic diet (as have many others since ~2016). Although there were some sources of available information that seemed reliable (like Craig Clarke's <a href="https://www.ruled.me/ketogenic-diet-food-list/">https://www.ruled.me/</a>) and I did experience some subjective benefits when making my initial forays into eating mostly fat, I was frustrated by inconsistency. Eventually I switched to my default mode of inquiry and consulted the scientific literature, attempting to find verifiable evidence to support or refute some of the claims surrounding this diet/lifestyle.</p>
+      <p>I tried to trace down the exact diet protocol originally administered to epileptic children at Johns Hopkins in the early twentieth century. From this I realized that time restriction on feeding periods was a fundamental component of effective ketogenic procedure administration. I began to search the literature for concrete data related to the effects of prolonged fasting, specifically its impact on athletic performance. I learned more about biological metabolism and exercise physiology, as well as the potential limitations of different implementation methods. Exposure to this knowledge has measurably and positively impacted my health, mood, and athletic performance. Some of the articles I found especially helpful are referenced above.</p>
+
       </ul>
       <a href="https://en.wikipedia.org/wiki/Scope_creep" target="_blank"><img src="./images/basement_troll_mhoffman.png" width="360"/></a>
     </div>
