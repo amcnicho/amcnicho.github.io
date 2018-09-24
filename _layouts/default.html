@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--Following coding standards defined by W3 and Mozilla-->
+<!--  https://www.w3.org/TR/html5/-->
+<!--  https://developer.mozilla.org/en-US/docs/Web/HTML/Element-->
+<html>
+  <head>
+    <title>Homepage | Andrew McNichols</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <!--Render text in utf-8-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" width="device-width, initial-scale=1">
+    <!--View PDFs in browser instead of downloading-->
+    <!--<meta http-equiv="Content-Type" content="application/pdf;" content-disposition="inline" filename="filename.myextension">-->
+    <!--Scale page content with device width for mobile compatibility-->
+    <meta name="viewport" content="width=device-width, initial=scale=1">
+  </head>
+
+  <header class="image-behind">
+    <!--<img src="/icons/nrao_logo_pms_100.png" alt="NRAO" width="77" height="100"><span class="color">-->
+    <!--<img src="images/construc.gif" alt="construction_gif" width="25" height="25">-->
+    <link href="./css/main.css" type="text/css" rel="stylesheet">
+    <h1>Andrew Thomas McNichols</h1>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="./science/index.html">Science</a>
+    <a href="./misc/index.html">Personal</a>
+    <a href="./medical/index.html">Health</a>
+  </header>
+
+  <body>
+    <nav>
+    <ul>
+      <!--Page navigation-->
+      <li><a href="/">Home</a></li>
+      <li><a href="/#contact">Contact</a></li>
+      <li><a href="/science">Science</a></li>
+      <li><a href="/misc">Personal</a></li>
+    </ul>
+    </nav>
+
+    <div class="container">
+
+    {{ content }}
+
+    </div>
+  
+    <footer>
+     <ul>
+     <li><a href="mailto:contact.atmcn@gmail.com">email</a></li>
+     <li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+     </ul>
+    </footer>
+	
+  </body>
+  
+</html>
