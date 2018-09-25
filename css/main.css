@@ -36,6 +36,7 @@ ul {
 ul li {
     list-style: none;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #333;
 }
 
 /*header specific formatting*/
