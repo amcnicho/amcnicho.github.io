@@ -22,9 +22,6 @@ a:hover {
 h1,h2,h3,h4,h5,h6 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-li {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
 h1 {
     font-size: 3em;
 }
@@ -32,19 +29,21 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
-ul.posts { 
+ul { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
 
-ul.posts li {
+ul li {
     list-style: none;
+    line-height: 1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 /*header specific formatting*/
