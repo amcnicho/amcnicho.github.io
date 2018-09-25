@@ -29,10 +29,6 @@ p {
     color: #333;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
 ul { 
     margin: 20px auto 40px; 
 }
@@ -64,3 +60,14 @@ header a:active  { color: #8b3626 }
 header h1 {
     color: white;
 }
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
