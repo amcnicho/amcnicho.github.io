@@ -19,9 +19,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
+h1,h2,h3,h4,h5,h6 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+li {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
@@ -45,9 +50,9 @@ ul.posts li {
 /*header specific formatting*/
 header {
   text-align: right;
-  background-image: url(../images/265763main_carina07_hst_big_full.jpg);
-  background-image: url(../images/Dwarf_galaxy_IC_1613_crop_low.jpg);
-  font-family: Arial;
+  background-image: url(/images/265763main_carina07_hst_big_full.jpg);
+  background-image: url(/images/Dwarf_galaxy_IC_1613_crop_low.jpg);
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 /* state for sticky scroll...
   position: fixed;
   top: 0;
